@@ -1,0 +1,1 @@
+# Fileman View Panorama Module## InstallPanorama must be installed first. See: https://github.com/shabiel/ewd-vista/wiki/Install.From your qewd main directory:```npm install ewd-vista-fmview```Then start QEWD as follows:```NODE_ENV=production node qewd.js```## LicenseLicensed under Apache 2.0.

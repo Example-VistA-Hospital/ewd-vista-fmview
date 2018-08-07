@@ -1,0 +1,56 @@
+<div class="container">
+    <!-- Main body -->
+    <div class="row">
+      <div class="row" id="fileContainer" style="display: none">
+        <button type='submit' id='fileCloseBtn' class='btn btn-primary'>Close File</button>
+        <div id="main_Container">
+
+        </div>
+      </div>
+        <div class="row">
+          <strong>Vista Fileman Concept Map</strong> generated using <strong>D3.js</strong>
+          <span style="color:darslateblue;">
+            <br><small>Click any node to focus, click the same node again to go back. <br>Double click any file to view detailed dependencies on file level</small>
+          </span>
+        </div>
+        <br><br>
+        <div class="row" id="cmContainer">
+          <div id="chart">
+          </div>
+        </div>
+        <div id="toolTip" class="tooltip" style="opacity: 0; left: 681px; top: 1203px;">
+          <div id="header1" class="header"></div>
+          <div id="primary" style="color:#d62728;"></div>
+          <div id="secondary" style="color:#2ca02c;"></div>
+          <div class="tooltipTail"></div>
+        </div>
+    </div>
+    <div class="modal fade bs-example-modal-lg" id="fileModal" tabindex="-1" role="dialog" aria-labelledby="fileModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="fileModalLabel"></h4>
+                </div>
+                <div class="modal-body">
+                    <div id="test_Container" class="container in" style="display: none"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade bs-example-modal-sm" id="loadingModal" tabindex="-1" role="dialog" aria-labelledby="loadingModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                  <h2 class="modal-title" id="loadingModalLabel">Loading Fileman Concept Map</h2>
+              </div>
+                <div class="modal-body">
+                    <h4>Please Wait</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

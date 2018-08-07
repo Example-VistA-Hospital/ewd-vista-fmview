@@ -1,0 +1,26 @@
+{
+  "name": "ewd-vista-fmview",
+  "engines": {
+    "node": ">=6"
+  },
+  "version": "0.0.1",
+  "description": "EWD VistA: FMVIEW Module",
+  "main": "index.js",
+  "author": "Qazi Faisal Sami",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Example-VistA-Hospital/ewd-vista-fmview.git"
+  },
+  "devDependencies": {
+    "eslint": "",
+    "eslint-plugin-json": ""
+  },
+  "ewdVista": {
+    "parentModule": "ewd-vista",
+    "name": "Fileman View",
+    "htmlName": "fmview",
+    "sortOrder": "50",
+    "securityKey": ""
+  }
+}
