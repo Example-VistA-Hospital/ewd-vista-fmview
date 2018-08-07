@@ -6,7 +6,7 @@
   "version": "0.0.1",
   "description": "EWD VistA: FMVIEW Module",
   "main": "index.js",
-  "author": "Qazi Faisal Sami",
+  "author": "Qazi Faisal Sami <faisalsami78@gmail.com>",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
@@ -22,5 +22,18 @@
     "htmlName": "fmview",
     "sortOrder": "50",
     "securityKey": ""
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Example-VistA-Hospital/ewd-vista-fmview/issues"
+  },
+  "homepage": "https://github.com/Example-VistA-Hospital/ewd-vista-fmview#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ewd-vista",
+	"qewd",
+	"fmview",
+	"fileman"
+  ]
 }
